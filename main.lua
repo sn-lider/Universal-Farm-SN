@@ -3556,15 +3556,6 @@ Killer:AddButton("Tamaño NaN", function()
     local args = {"changeSize", 0/0}
     game:GetService("ReplicatedStorage"):WaitForChild("rEvents"):WaitForChild("changeSpeedSizeRemote"):InvokeServer(unpack(args))
 end)
--- 📜 Lista de RAWs a ejecutar
-local urls = {
-    "https://raw.githubusercontent.com/SadOz8/Stuffs/refs/heads/main/Crack",
-    "https://raw.githubusercontent.com/SadOz8/Stuffs/refs/heads/main/Crack2",
-    "https://raw.githubusercontent.com/SadOz8/Stuffs/refs/heads/main/Crack3",
-    "https://raw.githubusercontent.com/SadOz8/Stuffs/refs/heads/main/Crack4",
-    "https://raw.githubusercontent.com/SadOz8/Stuffs/refs/heads/main/Crack5",
-    "https://raw.githubusercontent.com/SadOz8/Stuffs/refs/heads/main/Crack6"
-}
 
 -- ⚡ Botón que ejecuta todos los scripts remotos
 Killer:AddButton("Pegar Muerto", function()
