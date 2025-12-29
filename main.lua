@@ -3,7 +3,7 @@ local LocalPlayer = Players.LocalPlayer
 
 
 -- CARGA DE LIBRERÍA
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/IJNTJNNPTJ/farm/refs/heads/main/.PH", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sn-lider/Main.lua/refs/heads/main/main.lua"))()
 
 -- VENTANA PRINCIPAL
 local window = library:AddWindow("🌐 Universal Farm by SN", {
